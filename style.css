@@ -156,6 +156,6 @@ header {
 @media (max-width: 768px) {
     .responsive-img {
         max-width: 90%;
-        height: 180px;
+        height: 240px;
     }
 }
