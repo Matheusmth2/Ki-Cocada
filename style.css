@@ -163,6 +163,43 @@ p{
     .hamburguer {
         display: block;
     }
+    .pricing-table {
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .pricing-table thead {
+        display: none;
+    }
+    .pricing-table tr {
+        display: block;
+        background: #fff;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .pricing-table tr::after {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 100%;
+      background: linear-gradient(90deg, #3ec8ff, #80dfff);
+      margin-top: 15px;
+      border-radius: 2px;
+    }
+    .pricing-table td {
+        display: block;
+        padding: 10px 0;
+        text-align: left;
+        position: relative;
+    }
+    .pricing-table td::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: bold;
+        color: #3ec8ff;
+        margin-bottom: 5px;
+    }
 }
 .imagens-gallery {
     display: flex;
@@ -187,31 +224,48 @@ p{
     }
 }
 .pricing-table {
-    width: 90%;
+    width: 95%;
     max-width: 900px;
     margin: 40px auto;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     background-color: #fff;
-    border-radius: 12px;
+    border: 2px solid #3ec8ff;
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
 }
 .pricing-table tr:hover {
-    background-color: #f1f8e9;
+    transform: translateY(-5px);
+    background-color: #d0f0ff;
     transition: 0.3s;
 }
 .pricing-table th, .pricing-table td {
-    border: 1px solid #ccc;
-    padding: 10px;
+    border: none;
+    padding: 15px;
     text-align: left;
 }
 .pricing-table th {
-    background: linear-gradient(90deg, #3ec8ff, #62d4ff);
+    background: linear-gradient(90deg, #3ec8ff, #80dfff);
     color: #fff;
     padding: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 1rem;
 }
 .pricing-table td {
     padding: 15px;
+    border: none;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+    border-top: 1px solid #d0eaff;
+    border-right: 1px solid #d0eaff;
+}
+.pricing-table td::before {
+    color: #3ec8ff;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
 }
