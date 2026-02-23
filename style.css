@@ -167,6 +167,8 @@ p{
     .pricing-table {
         border: none !important;
         box-shadow: none !important;
+        background-color: rgba(255, 255, 255, 0.0) !important;
+        background-size: cover;
     }
     .pricing-table thead {
         display: none;
@@ -261,8 +263,10 @@ p{
     font-size: 0.95rem;
     line-height: 1.5;
     color: #333;
+    /* Realizar teste para verificar se as bordas estão funcionando corretamente
     border-top: 1px solid #d0eaff;
-    border-right: 1px solid #d0eaff;
+    border-left: 1px solid #d0eaff;
+    border-right: 1px solid #d0eaff; */
 }
 .pricing-table td::before {
     color: #3ec8ff;
