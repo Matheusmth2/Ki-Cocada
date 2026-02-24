@@ -6,6 +6,7 @@ body {
     background-size: cover;
 }
 header {
+    font-family: 'Courier New', Courier, monospace;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -48,6 +49,8 @@ p{
     font-size: clamp(1rem, 2vw, 1.5rem);
 }
 .logo {
+    display: flex;
+    align-items: center;
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Brush Script MT', cursive;
@@ -58,16 +61,16 @@ p{
 .logo::before {
     content: "";
     display: inline-block;
-    width: 22px;
-    height: 22px;
+    width: 31px;
+    height: 31px;
     background: url("logo/carrinho.png") no-repeat center/contain;
     margin-right: 6px;
 }
 .logo::after {
     content: "";
     display: inline-block;
-    width: 22px;
-    height: 22px;
+    width: 31px;
+    height: 31px;
     background: url("logo/algodao-doce.png") no-repeat center/contain;
     margin-left: 6px;
 }
