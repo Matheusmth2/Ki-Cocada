@@ -255,7 +255,9 @@ p{
 .pricing-table th {
     background: linear-gradient(90deg, #3ec8ff, #80dfff);
     color: #fff;
+    font-family:"Bradley Hand", cursive;
     padding: 15px;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1rem;
@@ -263,6 +265,7 @@ p{
 .pricing-table td {
     padding: 15px;
     border: none;
+    font-family:"Bradley Hand", cursive;
     font-size: 0.95rem;
     line-height: 1.5;
     color: #333;
