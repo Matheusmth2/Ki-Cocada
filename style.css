@@ -14,7 +14,7 @@ header {
 section{
     padding: 20px 20px;
 }
-h1, h2{
+h1, h2, h3{
     color: #333;
     text-align: center;
     margin: 20px 0 10px 0;
@@ -206,6 +206,42 @@ p{
         color: #3ec8ff;
         margin-bottom: 5px;
     }
+    .raspadinha-table {
+        background: #fff !important;
+        border-radius: 20px;
+        padding: 25px 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    .raspadinha-table thead {
+        display: none;
+    }
+    .raspadinha-table tbody {
+        display: block;
+    }
+    .raspadinha-table tr {
+        display: block;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+    .raspadinha-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        font-size: 1.1rem;
+        border-bottom: 1px solid #eee;
+    }
+    .raspadinha-table td::before {
+        display: none;
+    }
+    .raspadinha-table td:first-child {
+        font-weight: bold;
+    }
+    .raspadinha-table tr:last-child td {
+        border-bottom: none;
+    }
 }
 .imagens-gallery {
     display: flex;
@@ -279,4 +315,18 @@ p{
     font-weight: 600;
     margin-bottom: 5px;
     display: block;
+}
+.sabores-lista {
+    text-align: center;
+    font-family: "Bradley Hand", cursive;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+.sabores-lista p {
+    display: inline-block;
+    background: #ffffff;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
