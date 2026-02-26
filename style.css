@@ -301,6 +301,7 @@ p{
 .pricing-table td {
     padding: 15px;
     border: none;
+    text-align: center;
     font-family:"Bradley Hand", cursive;
     font-size: 0.95rem;
     line-height: 1.5;
