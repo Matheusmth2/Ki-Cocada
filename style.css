@@ -347,15 +347,26 @@ p{
     max-width: 1200px;
 }
 .suco-table {
-    border: 2px solid #f84831;
     width: 320px;
     text-align: center;
 }
 .suco-morango {
     border: 2px solid #f84831;
 }
-.suco-abacaxi {
-    border: 2px solid #ffcc00;
+.suco-morango .suco-nome {
+    color: #f84831;
+}
+.suco-morango .suco-nome::after {
+    background: #f84831;
+}
+.suco-açai {
+    border: 2px solid #6A0DAD;
+}
+.suco-açai .suco-nome {
+    color: #6A0DAD;
+}
+.suco-açai .suco-nome::after {
+    background: #6A0DAD;
 }
 .suco-img img {
     width: 100%;
