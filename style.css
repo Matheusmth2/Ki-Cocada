@@ -341,13 +341,14 @@ p{
 .sucos-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
     flex-wrap: wrap;
     margin: 40px auto;
     max-width: 1200px;
 }
 .suco-table {
     width: 320px;
+    margin: 10px 0;
     text-align: center;
 }
 .suco-morango {
@@ -368,6 +369,7 @@ p{
 .suco-açai .suco-nome::after {
     background: #6A0DAD;
 }
+/* cor do pedacinho do céu #00B4D8 */
 .suco-img img {
     width: 100%;
     height: 220px;
