@@ -372,6 +372,12 @@ p{
 .suco-ceu {
     border: 2px solid #00B4D8;
 }
+.suco-ceu .suco-nome {
+    color: #00B4D8;
+}
+.suco-ceu .suco-nome::after {
+    background: #00B4D8;
+}
 /* cor do pedacinho do céu #00B4D8 */
 .suco-img img {
     width: 100%;
