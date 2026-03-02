@@ -369,6 +369,9 @@ p{
 .suco-açai .suco-nome::after {
     background: #6A0DAD;
 }
+.suco-ceu {
+    border: 2px solid #00B4D8;
+}
 /* cor do pedacinho do céu #00B4D8 */
 .suco-img img {
     width: 100%;
