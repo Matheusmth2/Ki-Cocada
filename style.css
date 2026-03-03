@@ -132,9 +132,11 @@ p{
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 .hamburguer.toggle .linha1 {
-     /* Utilizar prefixos para compatibilidade com navegadores mais antigos
-    -moz-transform: translateY(-9px) rotate(-90deg) !important;
-    -ms-transform: translateY(-9px) rotate(-90deg) !important; */
+    /* Utilizar prefixos para compatibilidade com navegadores mais antigos
+    -moz-transform: translateY(-9px) rotate(-90deg) !important; navegadores baseados em Firefox (Gecko)
+    -ms-transform: translateY(-9px) rotate(-90deg) !important; internet explorer e versões mais antigas do edge 
+    -o-transform: translateY(-9px) rotate(-90deg) !important; opera 
+    -webkit-transform: translateY(-9px) rotate(-90deg) !important; safari, chrome, versões novas do Edge, Android */
     transform: translateY(9px) rotate(45deg);
 }
 .hamburguer.toggle .linha2 {
@@ -142,9 +144,11 @@ p{
     transform: scale(0);
 }
 .hamburguer.toggle .linha3 {
-     /* Utilizar prefixos para compatibilidade com navegadores mais antigos
-    -moz-transform: translateY(-9px) rotate(-90deg) !important;
-    -ms-transform: translateY(-9px) rotate(-90deg) !important; */
+    /* Utilizar prefixos para compatibilidade com navegadores mais antigos
+    -moz-transform: translateY(-9px) rotate(-90deg) !important; navegadores baseados em Firefox (Gecko)
+    -ms-transform: translateY(-9px) rotate(-90deg) !important; internet explorer e versões mais antigas do edge 
+    -o-transform: translateY(-9px) rotate(-90deg) !important; opera 
+    -webkit-transform: translateY(-9px) rotate(-90deg) !important; safari, chrome, versões novas do Edge, Android */
     transform: translateY(-9px) rotate(-45deg);
 }
 /* Responsividade */
