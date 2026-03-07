@@ -453,9 +453,13 @@ p{
 }
 .prev {
     left: 10px;
+    background-color: rgba(62, 200, 255, 0.5);
+    border-radius: 20px;
 }
 .next {
     right: 10px;
+    background-color: rgba(62, 200, 255, 0.5);
+    border-radius: 20px;
 }
 .carrousel-dots{
     text-align: center;
@@ -466,11 +470,11 @@ p{
     width: 15px;
     height: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #dfdfdf;
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: rgba(62, 200, 255, 0.5);
 }
