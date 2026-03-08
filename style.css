@@ -36,7 +36,7 @@ p{
     color: #333;
     text-align: center;
     margin: 20px 0 10px 0;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Nunito', sans-serif;
 }
 .navbar {
     display: flex;
