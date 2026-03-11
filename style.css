@@ -495,7 +495,7 @@ p{
     padding:12px;
     border-radius:8px;
     border:1px solid #ccc;
-    font-family:'Nunito', sans-serif;
+    font-family:"Bradley Hand", cursive;
 }
 .contact-form button{
     padding:12px;
@@ -505,16 +505,19 @@ p{
     color:white;
     font-weight:600;
     cursor:pointer;
+    font-family:"Bradley Hand", cursive;
 }
 .contact-form button:hover{
     background-color: rgba(62, 200, 255, 0.8);
     transition:0.3s;
+    box-shadow:0 6px 14px rgba(0,0,0,0.2);
 }
 .contact-info{
     flex:1;
     background:#fff3f6;
     padding:20px;
     border-radius:10px;
+    font-family: "Bradley Hand", cursive;
 }
 .whatsapp-btn{
     display:block;
