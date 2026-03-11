@@ -478,3 +478,40 @@ p{
 .active, .dot:hover {
     background-color: rgba(62, 200, 255, 0.5);
 }
+.contact-container{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+.contact-form{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.contact-form input,
+.contact-form textarea{
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-family:'Nunito', sans-serif;
+}
+.contact-form button{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#ff5a7a;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+}
+.contact-form button:hover{
+    background:#ff2f5a;
+}
+.contact-info{
+    flex:1;
+    background:#fff3f6;
+    padding:20px;
+    border-radius:10px;
+}
