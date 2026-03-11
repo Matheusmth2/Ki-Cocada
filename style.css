@@ -501,17 +501,37 @@ p{
     padding:12px;
     border:none;
     border-radius:8px;
-    background:#ff5a7a;
+    background-color: rgba(62, 200, 255, 0.5);
     color:white;
     font-weight:600;
     cursor:pointer;
 }
 .contact-form button:hover{
-    background:#ff2f5a;
+    background-color: rgba(62, 200, 255, 0.8);
+    transition:0.3s;
 }
 .contact-info{
     flex:1;
     background:#fff3f6;
     padding:20px;
     border-radius:10px;
+}
+.whatsapp-btn{
+    display:block;
+    width:fit-content;
+    margin:20px auto;
+    padding:12px 20px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    text-align:center;
+    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+.whatsapp-btn:hover{
+    background:#1ebe5d;
+    transform:scale(1.05);
+    box-shadow:0 6px 14px rgba(0,0,0,0.2);
 }
