@@ -493,6 +493,7 @@ p{
 .contact-form input,
 .contact-form textarea{
     padding:12px;
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius:8px;
     border:1px solid #ccc;
     font-family:"Bradley Hand", cursive;
@@ -514,7 +515,7 @@ p{
 }
 .contact-info{
     flex:1;
-    background:#fff3f6;
+    background-color: rgba(255, 255, 255, 0.6);
     padding:20px;
     border-radius:10px;
     font-family: "Bradley Hand", cursive;
