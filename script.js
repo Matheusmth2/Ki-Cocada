@@ -7,14 +7,26 @@ document.addEventListener('DOMContentLoaded', () => {
         hamburguer.classList.toggle('toggle');
     });
 });
-let slidesIndex = 1;
-showSlides(slidesIndex);
 
+let slidesIndex = 1;
+let slideTimer;
+
+showSlides(slidesIndex);
+startTimer();
+
+function startTimer() {
+    clearInterval(slideTimer);
+    slideTimer = setInterval(() => {
+        showSlides(slidesIndex += 1);
+    }, 5000);
+}
 function plusSlides(n) {
     showSlides(slidesIndex += n);
+    startTimer();
 }
 function currentSlide(n) {
     showSlides(slidesIndex = n);
+    startTimer();
 }
 function showSlides(n) {
     let slides = document.getElementsByClassName("carrousel-slide");
@@ -30,6 +42,3 @@ function showSlides(n) {
     slides[slidesIndex - 1].style.display = "block";
     dots[slidesIndex - 1].className += " active";
 }
-setInterval(() => {
-    showSlides(slidesIndex += 1);
-}, 5000);
