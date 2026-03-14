@@ -191,7 +191,7 @@ p{
     }
     .pricing-table:not(.suco-table) tr {
         display: block;
-        background: #fff;
+        background-color: rgba(255, 255, 255, 0.7);
         margin-bottom: 15px;
         border-radius: 15px;
         padding: 15px;
@@ -291,7 +291,7 @@ p{
     margin: 40px auto;
     border-collapse: separate;
     border-spacing: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6);
     border: 2px solid #3ec8ff;
     border-radius: 15px;
     overflow: hidden;
