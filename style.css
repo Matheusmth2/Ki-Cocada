@@ -545,3 +545,12 @@ p{
     transform:scale(1.05);
     box-shadow:0 6px 14px rgba(0,0,0,0.2);
 }
+footer {
+    background: rgba(62, 200, 255, 0.85);
+    text-align: center;
+    padding: 15px 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer p {
+    color: #ffffff;
+}
