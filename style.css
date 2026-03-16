@@ -313,7 +313,7 @@ p{
     text-align: left;
 }
 .pricing-table th {
-    background: linear-gradient(90deg, #3ec8ff, #80dfff);
+    background: rgba(62, 200, 255, 0.85);
     color: #fff;
     font-family:"Bradley Hand", cursive;
     padding: 15px;
@@ -321,6 +321,10 @@ p{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1rem;
+    border-right: 1px solid #d0eaff;
+}
+.pricing-table th:last-child {
+    border-right: none;
 }
 .pricing-table td {
     padding: 15px;
