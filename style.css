@@ -550,7 +550,7 @@ p{
 }
 .whatsapp-btn:hover{
     background:#1ebe5d;
-    transform:scale(1.05);
+    transform:scale(1.05) rotate(1deg);
     box-shadow:0 6px 14px rgba(0,0,0,0.2);
 }
 .videos-gallery{
